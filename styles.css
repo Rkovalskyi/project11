@@ -1,0 +1,17 @@
+/* Стилі для таблиці */
+table {
+    border-collapse: collapse;
+    width: 500px; 
+}
+
+td, th {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.rotate-minus-90 {
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    width: 50px;
+}
